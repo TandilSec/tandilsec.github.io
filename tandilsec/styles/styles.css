@@ -1,0 +1,111 @@
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+#navbar {
+    background-color: black;
+    border-bottom: 1px solid #001438;
+}
+#tandilsec {
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+    padding: 10px 0px 0px 0px;
+}
+#navigation ol {
+    float: right;
+    padding: 10px 0px 0px 0px;
+}
+#navigation ol li {
+    list-style: none;
+    display: inline;
+    font-family: 'Quicksand', sans-serif;
+}
+#navigation ol li:hover {
+    color: #2c2cf7;
+}
+#navigation ol li:visited {
+    color: white;
+}
+#navigation ol li a {
+    color: white;
+}
+#menu-arrow {
+    display: none;
+}
+#imagesCarousel,
+img {
+    height: 500px;
+}
+#information {
+    font-family: 'Share Tech', sans-serif;
+}
+#information h3 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+#information .col-lg-6 {
+    background-color: #f4f4f4;
+    padding: 35px;
+    opacity: 0.7;
+}
+.col-lg-12 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#information img {
+    max-width: 100%;
+    height: auto;
+}
+
+#follow {
+    background-color: black;
+}
+#social-media {
+    background-color: #f2f2f2;
+    border-top: 1px solid #001438;
+}
+
+#social-media ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+#social-media ul li {
+    float: right;
+    margin-bottom: 150px;
+    list-style-type: none;
+}
+#social-media ul li img {
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
+    padding: 5px;
+}
+@media screen and (max-width: 736px) {
+    #tandilsec {
+        text-align: center;
+    }
+    #navigation {
+        background-color: #001438;
+        /*Hide the menu - used instead of visibility: hidden*/
+        
+        display: none;
+        align-items: center;
+    }
+    #navigation ol {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    #navigation ol li {
+        display: block;
+        text-align: center;
+    }
+    #menu-arrow {
+        display: unset;
+        color: white;
+        font-size: 10px;
+    }
+
+    
+}
